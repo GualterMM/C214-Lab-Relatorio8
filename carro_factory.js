@@ -7,5 +7,4 @@ const Carro = (tipo, ano, marca) => ({
     getMarca: () => marca
 })
 
-const carro = Carro('Esporte', 2020, 'Ferrari')
-console.log(carro.getMarca(), carro.getTipo(), carro.getAno());
+module.exports = {Carro}

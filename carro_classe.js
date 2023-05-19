@@ -18,5 +18,4 @@ class Carro{
     }
 }
 
-const carro = new Carro('Esporte', 2020, 'Ferrari')
-console.log(carro.getMarca(), carro.getTipo(), carro.getAno());
+module.exports = {Carro}
